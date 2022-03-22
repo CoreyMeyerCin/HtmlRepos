@@ -1,0 +1,13 @@
+body {background-image:url(https://github.blog/wp-content/uploads/2020/12/layers-loop.h264.2020-12-21-11_16_56.gif?resize=640%2C409);
+    background-repeat: no-reapeat;
+    background-size:cover;}
+.transparentBisque{background-color: rgba(222, 184, 135, 0.551)}
+
+table{ width:150px; border-style:groove; border-collapse:collapse;
+    background-color:cornsilk;}
+td{border-style:groove;}
+.bullets{list-style-type: none;}
+.bold{font-weight: bold;}
+.bisque{background-color: burlywood;}
+.bad{color: red;}
+.italics{font-style:italic;}
