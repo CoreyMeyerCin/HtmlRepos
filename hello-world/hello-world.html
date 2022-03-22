@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">    
+    
+<head>
+    <title>Document</title>
+    <style>
+        body{background-image: url('https://avatars.githubusercontent.com/u/6360639?v=4');
+            background-repeat: repeat;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 16pt;
+        }
+
+        table, th, td {
+            border: 1px solid black; border-collapse: collapse;
+        }   
+        th,td{padding: 5px;} 
+        thead{color: black;
+            background-color: #fafafa76;}
+        th {font-style: italic; font-size: .8em;}
+        #name{color: white;font-size: 1.5em;}
+        .bold{font-weight: bold;}
+        .green {color: green;}
+        tr:nth-child(even) {
+            background-color: #fafafa76;
+        }
+    </style>
+</head>
+<body style="background-color: grey;">
+    <h1 style="background-color:#fafafa76">My First Webpage</h1>
+    <h3>By <span id="name"">Corey Meyer</span> - Future Bootcamp Grad</h3>
+    <span>My favorite tech in the bootcamp</span>
+    <ul style="margin:0;">
+        <li>Java</li>
+        <li>C#</li>
+        <li>SQL</li>
+    </ul>
+    <table>
+        <thead>
+            <tr>
+                 <th>Id</th>
+                 <th>Username</th>
+                 <th>Firstname</th>
+                 <th>Lastname </th>
+                 <th>Reviewer</th>
+                 <th>Admin</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>sa</td>
+                <td>System</td>
+                <td>Admin</td>
+                <td class="bold green">Yes</td>
+                <td class="bold green">Yes</td>
+
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>rv</td>
+                <td>System</td>
+                <td>Reviewer</td>
+                <td class="bold">Yes</td>
+                <td>No</td>
+
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>us</td>
+                <td>System</td>
+                <td>User uihzfdhuashigoiasiosg</td>
+                <td>No</td>
+                <td>No</td>
+
+            </tr>
+        </tbody>
+      
+
+    </table>
+    <span>
+        <pre>
+            foreach(var x of collection){
+                sum += x.value;
+            }
+        </pre>
+    </span>
+</body>
+</html>
